@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Menu.unity
     guid: 2275ead46e9b042509a7b8b21a378455
   - enabled: 1
@@ -14,4 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Perspective.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 437af3eb035454608b5f3231146bf1bf
+  - enabled: 1
+    path: Assets/Scenes/Dimetric.unity
+    guid: 39b1ab59e12ea41acb680c32b9c747f7
+  - enabled: 1
+    path: Assets/Scenes/Point2.unity
+    guid: df48de4791de24475aec010a163320a4
+  - enabled: 1
+    path: Assets/Scenes/Point3.unity
+    guid: daeed0ecd5bae4328b20c44b416bf4fc
+  - enabled: 1
+    path: Assets/Scenes/Trimetric.unity
+    guid: 6b64c9a15952945adb71d7b28451a35a
   m_configObjects: {}
