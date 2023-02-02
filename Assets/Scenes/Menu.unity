@@ -613,14 +613,14 @@ RectTransform:
   - {fileID: 667167712}
   - {fileID: 766918470}
   - {fileID: 950741859}
-  - {fileID: 1926665402}
   - {fileID: 2082424861}
   - {fileID: 2058877336}
+  - {fileID: 1926665402}
   - {fileID: 1101792797}
   - {fileID: 500377822}
   - {fileID: 538003921}
-  - {fileID: 2119786942}
   - {fileID: 1618776175}
+  - {fileID: 2119786942}
   - {fileID: 1243432923}
   - {fileID: 1919547795}
   - {fileID: 517559543}
@@ -1156,7 +1156,7 @@ GameObject:
   - component: {fileID: 500377824}
   - component: {fileID: 500377823}
   m_Layer: 5
-  m_Name: Button (5)
+  m_Name: MultiViewButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1369,7 +1369,7 @@ GameObject:
   - component: {fileID: 538003923}
   - component: {fileID: 538003922}
   m_Layer: 5
-  m_Name: Button (6)
+  m_Name: AxonometricButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3330,7 +3330,7 @@ GameObject:
   - component: {fileID: 950741861}
   - component: {fileID: 950741860}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Parallel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3772,7 +3772,7 @@ GameObject:
   - component: {fileID: 1101792799}
   - component: {fileID: 1101792798}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: 3ptButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3842,7 +3842,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1101792799}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1877325735}
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Point3
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1101792799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3968,7 +3980,7 @@ GameObject:
   - component: {fileID: 1243432925}
   - component: {fileID: 1243432924}
   m_Layer: 5
-  m_Name: Button (9)
+  m_Name: TrimetricButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4038,7 +4050,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1243432925}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1877325735}
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Trimetric
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1243432925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5109,7 +5133,7 @@ GameObject:
   - component: {fileID: 1618776177}
   - component: {fileID: 1618776176}
   m_Layer: 5
-  m_Name: Button (8)
+  m_Name: IsometricButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5129,7 +5153,7 @@ RectTransform:
   m_Children:
   - {fileID: 1287832929}
   m_Father: {fileID: 133963793}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5680,7 +5704,7 @@ GameObject:
   - component: {fileID: 1926665404}
   - component: {fileID: 1926665403}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: 2ptButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5700,7 +5724,7 @@ RectTransform:
   m_Children:
   - {fileID: 937998483}
   m_Father: {fileID: 133963793}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5750,7 +5774,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1926665404}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1877325735}
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Point2
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1926665404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6082,7 +6118,7 @@ GameObject:
   - component: {fileID: 2058877338}
   - component: {fileID: 2058877337}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: 1ptButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6102,7 +6138,7 @@ RectTransform:
   m_Children:
   - {fileID: 2124850015}
   m_Father: {fileID: 133963793}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6216,7 +6252,7 @@ GameObject:
   - component: {fileID: 2082424863}
   - component: {fileID: 2082424862}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Perspective
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6236,7 +6272,7 @@ RectTransform:
   m_Children:
   - {fileID: 1570908499}
   m_Father: {fileID: 133963793}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6601,7 +6637,7 @@ GameObject:
   - component: {fileID: 2119786944}
   - component: {fileID: 2119786943}
   m_Layer: 5
-  m_Name: Button (7)
+  m_Name: DimetricButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6621,7 +6657,7 @@ RectTransform:
   m_Children:
   - {fileID: 1583013436}
   m_Father: {fileID: 133963793}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6671,7 +6707,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2119786944}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1877325735}
+        m_TargetAssemblyTypeName: ButtonController, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Dimetric
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &2119786944
 MonoBehaviour:
   m_ObjectHideFlags: 0
